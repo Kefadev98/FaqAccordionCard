@@ -30,7 +30,7 @@ body {
   flex-basis: 100%;
   width: 88%;
 }
-.slika-desktop {
+.photo-desktop {
   background-image: url(images/bg-pattern-desktop.svg);
   background-position: center;
   background-size: cover;
@@ -50,22 +50,22 @@ body {
   padding-bottom: 2rem;
   margin-left: 20px;
 }
-.faks {
+.fax {
   width: 100%;
   list-style-type: none; 
 }
-.faks-title {
+.fax-title {
   font-size: 1.1rem;
   font-weight: 400;
   color: hsl(237, 12%, 33%);  
   padding: 1.2rem 0rem; 
   border-bottom: 1px solid hsl(240, 5%, 91%); 
 }
-.faks-title:hover {
+.fax-title:hover {
   color: hsl(14, 88%, 65%);
   cursor: pointer;
 }
-.faks-title:focus, .faks-title:active {
+.fax-title:focus, .fax-title:active {
   color: hsl(238, 29%, 16%);
   cursor: pointer;
 }
@@ -73,7 +73,7 @@ body {
   float:right;
   margin-top: 10px;
 }
-.faks-tekst {
+.fax-text {
   font-size: 0.9rem;
   font-weight: 400;
   text-align: justify;
@@ -81,10 +81,10 @@ body {
   line-height: 1rem;
   padding-top: 1rem;
 }
-.faks-hidden p{
+.fax-hidden p{
   display: none;
 }
-.selected .faks-title{
+.selected .fax-title{
   font-size: .9rem;
   font-weight: 700;
   color: hsl(238, 29%, 16%);
@@ -103,7 +103,7 @@ body {
 
 @media only screen and (min-width: 401px) {
 
-  .slika-mobile {
+  .photo-mobile {
     display: none; 
   }
 
@@ -123,13 +123,13 @@ body {
      width: 140%;
      margin-top: -10rem;
    }
-   .slika-desktop {
+   .photo-desktop {
      display: none;
    }
    .heading {
      text-align: center;
    }
-   .faks-title {
+   .fax-title {
      padding-bottom: 2.2rem;
      font-size: 0.9rem;
    }
@@ -137,7 +137,7 @@ body {
     float:right;
     margin-top: 10px;
   }
-  .slika-mobile {
+  .photo-mobile {
     transform: translate(-1rem,-6.5rem);
     background: url(images/bg-pattern-mobile.svg);
     background-repeat: no-repeat;
